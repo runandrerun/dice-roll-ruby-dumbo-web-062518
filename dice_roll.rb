@@ -3,5 +3,5 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  return (1..10).rand
+  return (1..10).rand.to_i
 end
